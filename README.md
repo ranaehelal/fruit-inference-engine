@@ -26,7 +26,7 @@ IF has_segments AND round THEN citrus_fruit
 
 3. Run the expert system:
 ```
-python expert_system.py
+python inference_engine.ipynb
 ```
 
 The system will attempt to prove the goal using backward chaining and then demonstrate forward chaining to infer all possible facts from the initial knowledge base.
